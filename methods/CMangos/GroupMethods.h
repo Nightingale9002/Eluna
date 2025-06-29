@@ -341,7 +341,7 @@ namespace LuaGroup
         if (!group->HasFreeSlotSubGroup(subGroup))
             return 0;
 
-        group->ChangeMembersGroup(guid, subGroup);
+        group->ChangeMembersGroup(guid, subGroup,true);
         return 0;
     }
 
